@@ -13,6 +13,7 @@ Maven 3+ and Java 7 (or higher) are required to build this project.  All other d
 
 With java in your path, invocation is simply: **java -jar StatsLogger.jar** *options*
 where options are:
+```
  -?         Shows help (this message)
  -h <arg>   host:port, defaults to localhost:4502
  -l <arg>   location for logs to be written, required
@@ -20,6 +21,7 @@ where options are:
  -r         if specified reset JMX statistics
  -s         if specified use HTTPS
  -u <arg>   user name, defaults to admin
+```
 
 # Output
 
