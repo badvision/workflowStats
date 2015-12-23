@@ -3,7 +3,8 @@ package com.adobe.ags.statslogger;
 public class WorkflowStats {
 
     private double rateMax, rateMid, rateMin;
-    private int timeMax, timeMid, timeMin, total, totalAllTime, pendingCount, instanceCount;
+    private long timeMax, timeMid, timeMin;
+    private int total, totalAllTime, pendingCount, instanceCount;
     private String workflow, workflowPath;
 
     public void setRateMax(double max) {
@@ -30,27 +31,27 @@ public class WorkflowStats {
         return rateMin;
     }
 
-    public void setTimeMax(int max) {
+    public void setTimeMax(long max) {
         timeMax = max;
     }
 
-    public int getTimeMax() {
+    public long getTimeMax() {
         return timeMax;
     }
 
-    public void setTimeMid(int mid) {
+    public void setTimeMid(long mid) {
         timeMid = mid;
     }
 
-    public int getTimeMid() {
+    public long getTimeMid() {
         return timeMid;
     }
 
-    public void setTimeMin(int min) {
+    public void setTimeMin(long min) {
         timeMin = min;
     }
 
-    public int getTimeMin() {
+    public long getTimeMin() {
         return timeMin;
     }
 
